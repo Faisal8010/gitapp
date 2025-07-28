@@ -1,2 +1,1 @@
-
-[![Build Sthttps://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/_apis/build/status%2FFaisal8010.gitapp?branchName=master)](https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/_build/latest?definitionId=5&branchName=master)
+[![Build Status](https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/_apis/build/status%2FFaisal8010.gitapp?branchName=master)](https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/_build/latest?definitionId=5&branchName=master)
