@@ -1,0 +1,22 @@
+﻿name: workflowpipeline
+
+on:
+  push:
+   branches:
+    - master
+  pull_request:
+   branches:
+    - master
+
+jobs:
+    build:
+      name: Azure Pipeline
+      runs-on: windows-latest
+      steps:
+      - name: Azure Pipeline Actions
+        uses: Azure/Pipelines@v1
+        with:
+         azure-devops-project-url: https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/
+         azure-devops-pipeline-name: 'Faisal8010.gitapp'
+         azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
+
