@@ -16,7 +16,7 @@ jobs:
       - name: Azure Pipeline Actions
         uses: Azure/Pipelines@v1
         with:
-         azure-devops-project-url: https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/
+         azure-devops-project-url: https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010
          azure-pipeline-name: 'Faisal8010.gitapp'
          azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
 
